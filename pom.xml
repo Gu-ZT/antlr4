@@ -90,7 +90,7 @@
 	<modules>
 		<module>runtime/Java</module>
 		<module>tool</module>
-		<module>antlr4-maven-plugin</module>
+<!-- 		<module>antlr4-maven-plugin</module> -->
 		<module>tool-testsuite</module>
 		<module>runtime-testsuite</module>
 	</modules>
