@@ -135,21 +135,12 @@
 			</testResource>
 		</testResources>
 		<plugins>
-			<plugin>
-				<artifactId>maven-clean-plugin</artifactId>
-				<version>3.1.0</version>
-				<configuration>
-					<filesets>
-						<fileset>
-							<directory>runtime/Swift/.build</directory>
-						</fileset>
-						<fileset>
-							<directory>runtime/Swift/Tests/Antlr4Tests/gen</directory>
-						</fileset>
-					</filesets>
-				</configuration>
-			</plugin>
-		</plugins>
+	            <plugin>
+	                <groupId>org.apache.maven.plugins</groupId>
+	                <artifactId>maven-clean-plugin</artifactId>
+	                <version>3.1.0</version>
+	            </plugin>
+	        </plugins>
 		<pluginManagement>
 			<plugins>
 				<plugin>
